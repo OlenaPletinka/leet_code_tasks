@@ -19,7 +19,6 @@ public class AddBinary {
       int sum = x + y + carry;
       builder.append(sum % 2);
       carry = sum / 2;
-
     }
 
     if (carry != 0) {

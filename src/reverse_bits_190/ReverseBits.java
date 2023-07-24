@@ -1,8 +1,5 @@
 package reverse_bits_190;
 
-import java.util.Arrays;
-import java.util.List;
-
 /**
  * 190. Reverse Bits
  *
@@ -35,5 +32,4 @@ public class ReverseBits {
     System.out.println(reverseBits.reverseBits(43261596));
 
   }
-
 }

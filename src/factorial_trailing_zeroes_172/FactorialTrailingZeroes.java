@@ -17,7 +17,6 @@ public class FactorialTrailingZeroes {
       result++;
     }
     return result;
-
   }
 
   private Integer getFactorial(int n){

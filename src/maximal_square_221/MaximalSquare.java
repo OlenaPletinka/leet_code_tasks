@@ -32,7 +32,6 @@ public class MaximalSquare {
     return result*result;
   }
 
-
   public static void main(String[] args) {
     MaximalSquare square = new MaximalSquare();
     System.out.println(square.maximalSquare(new char[][]{{'0','1'},

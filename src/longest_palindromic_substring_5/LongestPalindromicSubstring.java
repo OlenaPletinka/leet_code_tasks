@@ -19,8 +19,6 @@ public class LongestPalindromicSubstring {
     int len = s.length();
     int left;
     int right;
-
-    
     for(int i  = 0; i < len; i++){
 //cover odd cases
       left = i;
@@ -49,7 +47,6 @@ public class LongestPalindromicSubstring {
 
     return res;
   }
-
   public static void main(String[] args) {
     LongestPalindromicSubstring substring = new LongestPalindromicSubstring();
     System.out.println(substring.longestPalindrome("baa"));

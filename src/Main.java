@@ -50,6 +50,8 @@ public class Main {
     int[] merge = mergeSortedArray.merge(new int[]{0}, 0, new int[]{1}, 1);
     System.out.println(merge);
 
+    System.out.println("done");
+
 
   }
 

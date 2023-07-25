@@ -33,7 +33,6 @@ public class CourseScheduleII {
     for(int[]ar:prerequisites){
       graph.get(ar[1]).add(ar[0]);
     }
-
     // dfs
     boolean[] inStack = new boolean[numCourses];
     boolean[] isVisited = new boolean[numCourses];
@@ -77,6 +76,5 @@ public class CourseScheduleII {
     CourseScheduleII scheduleII = new CourseScheduleII();
     int[] order = scheduleII.findOrder(4, new int[][]{{1, 0}, {2, 0}, {3, 1}, {3, 2}});
     System.out.println(order);
-
   }
 }

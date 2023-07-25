@@ -18,14 +18,12 @@ public class FactorialTrailingZeroes {
     }
     return result;
   }
-
   private Integer getFactorial(int n){
     if(n == 0){
       return 1;
     }
     return n * getFactorial(n-1);
   }
-
   public static void main(String[] args) {
     FactorialTrailingZeroes trailingZeroes = new FactorialTrailingZeroes();
     System.out.println(trailingZeroes.trailingZeroes(30));

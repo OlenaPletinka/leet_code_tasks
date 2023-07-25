@@ -42,7 +42,6 @@ public class DesignAddSearchWordsDataStructure {
           if(node != null && node.search(word.substring(i+1))){
             return true;
           }
-
         }
         return false;
       }
@@ -50,14 +49,12 @@ public class DesignAddSearchWordsDataStructure {
         return false;
       }
       curr = curr.children[c-'a'];
-
     }
     return  curr.isEnd;
   }
 
   public static void main(String[] args) {
     DesignAddSearchWordsDataStructure d = new DesignAddSearchWordsDataStructure();
-
     d.addWord("bad");
     d.addWord("dad");
     d.addWord("mad");

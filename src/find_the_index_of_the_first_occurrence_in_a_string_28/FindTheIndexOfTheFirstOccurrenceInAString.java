@@ -42,7 +42,6 @@ public class FindTheIndexOfTheFirstOccurrenceInAString {
         }
       }
     }
-
     return -1;
   }
 
@@ -90,7 +89,6 @@ public class FindTheIndexOfTheFirstOccurrenceInAString {
       }
     }
     return -1;
-
   }
 
   // Khnut-Morris-Pratt
@@ -116,9 +114,7 @@ public class FindTheIndexOfTheFirstOccurrenceInAString {
       } else if(start !=0){
         start = lps[start-1];
         i--;
-
       }
-
     }
 
     int needlePointer = 0;

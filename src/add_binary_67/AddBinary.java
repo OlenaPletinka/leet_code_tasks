@@ -25,7 +25,6 @@ public class AddBinary {
     }
     return builder.reverse().toString();
   }
-
   public static void main(String[] args) {
     AddBinary binary = new AddBinary();
     System.out.println(binary.addBinary("11", "1"));

@@ -44,7 +44,6 @@ public class LongestPalindromicSubstring {
       }
     }
 
-
     return res;
   }
   public static void main(String[] args) {

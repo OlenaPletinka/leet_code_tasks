@@ -34,7 +34,6 @@ public class Main {
 //    FindTheIndexOfTheFirstOccurrenceInAString index = new FindTheIndexOfTheFirstOccurrenceInAString();
 //    System.out.println(index.strStrKnuthMorrisPratt("sadbutsad", "sad"));
 //    System.out.println(index.strStrKnuthMorrisPratt("leetcode", "leeto"));
-
 //    System.out.println(index.strStrKnuthMorrisPratt("leetcode", "code"));
 
 //     * 69. Sqrt(x)
